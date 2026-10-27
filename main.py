@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 """
 Contador de LP Yu-Gi-Oh! - Cipher
 Autor: Ing. Norberto Hernández
