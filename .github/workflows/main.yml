@@ -12,17 +12,17 @@ jobs:
 
     steps:
     - name: Checkout code
-      uses: actions/checkout@v4
+      uses: actions/checkout@v3
 
     - name: Build with Buildozer
-      uses: kivy/buildozer-action@v1
+      uses: kivy/buildozer-action@master
       id: buildozer
       with:
         filename: buildozer.spec
         command: android debug
 
     - name: Upload APK Artifact
-      uses: actions/upload-artifact@v4
+      uses: actions/upload-artifact@v3
       with:
         name: yugioh-lp-tracker-apk
         path: ${{ steps.buildozer.outputs.filename }}
