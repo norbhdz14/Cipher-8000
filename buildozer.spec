@@ -1,22 +1,23 @@
 [app]
 title = Yu-Gi-Oh! LP Tracker
 package.name = yugiohlptracker
-package.domain = org.cipher
+package.domain = mx.cipher
+source.dir = .
+source.include_exts = py,png,jpg
 version = 1.0
 
-source.dir = .
-source.include_exts = py,png,jpg,kv,atlas
+requirements = python3,kivy
 
-requirements = python3,kivy==2.3.0
 orientation = portrait
+fullscreen = 0
 icon.filename = %(source.dir)s/logo.png
 
-# Android
+android.archs = arm64-v8a
 android.api = 33
 android.minapi = 21
-android.archs = arm64-v8a, armeabi-v7a
+android.sdk = 33
+android.ndk = 25b
 android.accept_sdk_license = True
-#android.permissions = INTERNET
 
 [buildozer]
 log_level = 2
