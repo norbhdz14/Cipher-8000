@@ -1,0 +1,24 @@
+Categories:
+  - Games
+  - Utilities
+License:
+  - MIT
+WebSite:
+  - https://github.com/norbhdz14/Cipher-8000
+SourceCode:
+  - https://github.com/norbhdz14/Cipher-8000
+IssueTracker:
+  - https://github.com/norbhdz14/Cipher-8000/issues
+
+Summary:
+  Un contador de puntos de vida optimizado y de alto rendimiento para Yu-Gi-Oh!
+
+Description:
+  Cipher es una aplicación móvil desarrollada en Python y Kivy diseñada específicamente para llevar el control preciso de los puntos de vida (LP) en duelos de Yu-Gi-Oh!. 
+  
+  Características principales:
+  * Interfaz fluida y optimizada con rotación de pantalla para ambos jugadores.
+  * Modo rápido sin nombres para iniciar duelos de inmediato.
+  * Gráficas de barras avanzadas inspiradas en análisis BATNA para llevar el historial de daño.
+  * Arquitectura robusta y blindada contra cierres forzosos mediante gestión avanzada de hilos.
+  * Código abierto y compilación automatizada en la nube.
