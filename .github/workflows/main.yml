@@ -1,0 +1,28 @@
+name: CI Build Android APK
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Build with Buildozer
+      uses: kivy/buildozer-action@v1
+      id: buildozer
+      with:
+        filename: buildozer.spec
+        command: android debug
+
+    - name: Upload APK Artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: yugioh-lp-tracker-apk
+        path: ${{ steps.buildozer.outputs.filename }}
