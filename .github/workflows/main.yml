@@ -6,17 +6,17 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
       - name: Build with Buildozer
-        uses: kivy/buildozer-action@master
+        uses: ArtemSBulgakov/buildozer-action@v1
         id: buildozer
         with:
-          filename: buildozer.spec
-          command: android debug
+          command: buildozer android debug
+          buildozer_version: stable
 
       - name: Upload APK
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: cipher-apk
           path: ${{ steps.buildozer.outputs.filename }}
