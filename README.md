@@ -2,6 +2,8 @@
 
 Contador profesional de puntos de vida (*Life Points*) y compañero de duelos optimizado para dispositivos móviles y sistemas embebidos, desarrollado con **Python y Kivy**.
 
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/T4T629IUEU)
+
 ---
 
 ## 🛠️ Características Principales
@@ -31,7 +33,7 @@ Contador profesional de puntos de vida (*Life Points*) y compañero de duelos op
 ## 💖 Apoya el Desarrollo
 Esta aplicación es de código abierto y totalmente gratuita para la comunidad de duelos. Si te ha sido útil en tus torneos, considera apoyar el proyecto:
 * **PayPal:** [paypal.me/norbhdz14](https://paypal.me/norbhdz14)
-* **Ko-fi:** [ko-fi.com/cipherlosaltos](https://ko-fi.com/cipherlosaltos)
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/T4T629IUEU)
 
 ---
 
